@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --main-bg-color:#0dc1df94;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f6;
+    color: #333;
+}
+
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #f7f7f6;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.text-section {
+    flex: 1;
+    padding-right: 30px;
+}
+
+.text-section h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.text-section h3 {
+    font-size: 1.5em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.text-section p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.text-section a {
+    color: #333;
+    text-decoration: underline;
+}
+
+.contact-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color:var(--main-bg-color);
+    color: #fff;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.image-section {
+    flex: 1;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Info Section */
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 84px 101px;
+    background-color: #f3ebe7;
+}
+
+.info-box {
+    background-color: var(--main-bg-color);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.info-box i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.info-box h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.info-box p {
+    font-size: 1em;
+}
